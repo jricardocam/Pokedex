@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+</head>
+<body>
+    <!--<div class="rectangulo"></div>-->
+    <div class="conprincipal">
+        
+        
+        <div class="cgrande"></div>
+        <div class="cpeq" style="background-color:red"></div>
+        <div class="cpeq" style="background-color:rgb(250, 212, 0)"></div>
+        <div class="cpeq" style="background-color:green"></div><br>
+            
+            <img src="./img/titulo.png" alt=""><br>
+            <div class="buscador">
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" class="entrada">
+            <button onclick="fetchPokemon();" class="boton"><img src="./img/lupa.png" alt="Lupa" class="ima"></button>
+            </div>
+
+          <div class="c2"> 
+            <div class="imagen">
+            <div id="NumPok" class="num"></div>
+            <div id="NomPok" class="nom"></div>
+            <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" class="ima">
+            </div>  
+           
+            <div class="estadisticas">
+               <div class="iz">
+                <h1>Estadisticas</h1>
+                
+                <div class="izq">Puntos Salud:<p id="PS"></p></div><br>
+                <div class="izq">Ataque:<p id="att">     </p></div><br>
+                <div class="izq">Defensa:<p id="defe"></p></div><br>
+
+                <h1>Movimientos</h1>
+                <div class="izq">Movimiento1:<p id="m1"></p></div><br>
+                <div class="izq">Movimiento2:<p id="m2"></p></div><br>
+                <div class="izq">Movimiento3:<p id="m3"></p></div><br>
+                </div>
+                <div class="derecha">
+                
+                <div class="izq">Peso:<p id="peso"></p></div><br> 
+                <div class="izq">Altura:<p id="altura"></p></div><br> 
+                </div>
+            </div>
+          </div>
+    </div>
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>

@@ -1,0 +1,152 @@
+
+body{
+    box-sizing: border-box;
+    background-color:#c53636;
+}
+.conprincipal{
+    background-color:#FF4242;
+    padding: 3%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.cgrande{
+    width: 6em;
+    height: 6em;
+    background-color: #2081C3;
+    border-radius: 100%;
+    border: solid 10px white;
+    display: inline-flex;
+
+
+}
+
+.cpeq{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 1em;   
+    position: relative;
+    bottom: 4em;
+    border: solid 5px white;
+
+}
+
+.rectangulo{
+    width: 20em;
+    height: 10em;
+    background-color: white;
+    float: right;
+}
+
+.imagen{
+    width: 22.5em;
+    height: 22.5em;
+    padding: 1em;
+    background-color: #ACECF7;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px #2081C3;
+    box-sizing:content-box;
+}
+.ima {
+    width:100%;
+    position: relative;
+    overflow:hidden;
+
+}
+.buscador{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.boton{
+    height: 3em;
+    width: 3em;
+    border-radius: 5px;
+    border: solid #2081C3 2px;
+    position: relative;
+    top: 6px;
+  
+}
+.entrada{
+    border-radius: 5px;
+    border: solid #2081C3 2px;
+    height:3em;
+    width: 18em;
+    font-family: monospace;
+    margin-left:2em;
+ 
+}
+.num{
+    display: inline-flex;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 8em;
+    font-family: monospace;
+}
+.nom{
+    display: inline-flex;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+
+.estadisticas{
+    display: block;
+    width:40%;
+    min-height: 25em;
+    margin-left: 3em;
+    background-color: #ff7474;
+    display: inline-block;
+    position: relative;
+    overflow:hidden;
+    padding: 1em;
+    box-sizing: border-box;
+    
+
+}
+.c2{
+    height: auto;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.izq {
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0.5em;
+}
+h1{
+    margin: 0%;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em;
+}
+p{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0em;
+    text-align: right;
+}
+.derecha{
+    float: right;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    padding-top: 2.6em;
+}
+.iz{
+    width: 50%;
+    display:inline-block;
+}
